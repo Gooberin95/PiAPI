@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
-app.get("/",( req, res) => {
+app.get("/records",( req, res) => {
 	res.status(200).send("<b>Brandon </b><br>Ruiz</b>")
 
 });
