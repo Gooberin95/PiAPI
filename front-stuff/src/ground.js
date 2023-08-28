@@ -1,7 +1,7 @@
 import React from 'react';
-import App.css from 'App.css';
+import Button from 'react-bootstrap/Button';
 function MyButton(props) {
-	return <button> Hi, {props.text} I am a Car!</button>
+	return <Button variant="primary"> Hi, {props.text} I am a Car!</Button>
 }
 
 export default MyButton;
