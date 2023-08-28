@@ -1,8 +1,8 @@
 import React from 'react';
-
-function Car() {
-	return <h2> Hi, I am a Car!</h2>
+import App.css from 'App.css';
+function MyButton(props) {
+	return <button> Hi, {props.text} I am a Car!</button>
 }
 
-export default Car;
+export default MyButton;
 
