@@ -4,7 +4,7 @@ function App() {
   return (
 	  <>
 	  <MyButton text="Discipline Yourself"/>
-	  <h1>Hello dudes</h1>
+	  <h1>Running Hello dudes</h1>
 	  </>
 
   );
